@@ -1,0 +1,32 @@
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+**/credentials.json
+**/token.json
+
+# Python
+.venv/
+**/.venv/
+__pycache__/
+**/__pycache__/
+*.py[cod]
+
+# Databases and local data
+*.db
+*.sqlite
+*.sqlite3
+
+# Node / React
+node_modules/
+**/node_modules/
+dist/
+**/dist/
+.vite/
+
+# IDE and system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.log
